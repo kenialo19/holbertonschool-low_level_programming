@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - check the code for Holberton School students.
+ * _isalpha - alphabetic character
  *
  * Return: Always 0.
  */
