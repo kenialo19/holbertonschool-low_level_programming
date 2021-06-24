@@ -17,6 +17,7 @@ d = n * s;
 if (d <= 9)
 {
 if (s != 0)
+{
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
