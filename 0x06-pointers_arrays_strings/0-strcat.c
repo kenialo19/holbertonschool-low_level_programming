@@ -14,7 +14,7 @@ int h, d;
 for (h = 0; dest[h] != 0; h++)
 {
 }
-for(d = 0; src[d]; d++)
+for (d = 0; src[d]; d++)
 {
 dest[h] = src[d];
 h++;
