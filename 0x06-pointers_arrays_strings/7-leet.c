@@ -21,5 +21,6 @@ if (k[h] == p[d])
 k[h] = w[d];
 }
 }
+}
 return (k);
 }
