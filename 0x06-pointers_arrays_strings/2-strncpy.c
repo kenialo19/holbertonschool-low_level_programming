@@ -18,7 +18,7 @@ for (k = 0; k < n; k++)
 {
 dest[k] = src[k];
 }
-for(s = b; s < n; s++ )
+for (s = b; s < n; s++)
 {
 dest[s] = 0;
 }
