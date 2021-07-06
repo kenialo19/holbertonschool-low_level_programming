@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strspn - check the code for Holberton School students.
+ * *_strpbrk - searches a string for any of a set of bytes.
  *
  * Return: Always char*.
  * @s: is a variable char*.
