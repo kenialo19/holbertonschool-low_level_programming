@@ -16,7 +16,7 @@ for (b = 0; needle[b] != '\0'; b++)
 {
 if (haystack[x] == needle[b])
 {
-return (haystack + b + 4);
+return (&haystack[b] + 4);
 }
 }
 } return (0);
