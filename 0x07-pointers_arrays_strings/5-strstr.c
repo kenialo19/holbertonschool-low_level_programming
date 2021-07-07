@@ -14,8 +14,9 @@ if (needle == 0)
 {
 return (haystack);
 }
-for (b = 0; haystack[b]; b++)
+while (haystack)
 {
+b = 0;
 if (haystack[b] == needle[b])
 {
 do {
@@ -25,7 +26,7 @@ return (haystack);
 }
 b++;
 } while (haystack[b] == needle[b]);
-}
+} haystack++;
 }
 return ('\0');
 }
