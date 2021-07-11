@@ -1,13 +1,17 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * _puts - check the code for Holberton School students.
- * @str: sting
- *
- * Return: void.
- */
-void _puts(char *str)
+* _puts - function that returns the length of a string.
+* @s: string to prints
+* Return: 0
+*/
+
+void _puts(char *s)
 {
-puts(str);
+int i;
+for (i = 0; s[i] != '\0'; i++)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
 }
