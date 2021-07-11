@@ -5,7 +5,7 @@
  * @s: string to prints
  * Return: 0
  */
-int _atoi(char *s) 
-{ 
-return (*s); 
+int _atoi(char *s)
+{
+return (*s);
 }
