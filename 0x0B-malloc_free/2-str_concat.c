@@ -14,13 +14,19 @@ int a = 0;
 int b = 0;
 int i;
 char *y;
+if (s1 != NULL)
+{
 while (s1[a] != '\0')
 {
 a++;
 }
+}
+if (s2 != NULL)
+{
 while (s2[b] != '\0')
 {
 b++;
+}
 }
 y = malloc((a + b + 1) * sizeof(char));
 if (y == 0)
