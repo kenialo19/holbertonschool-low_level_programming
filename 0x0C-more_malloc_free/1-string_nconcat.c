@@ -27,17 +27,17 @@
          j++;
      }
      }
-     if (n > j)
-    {
-         n = j; 
-    }
      b = malloc((i + n + 1) * sizeof(char));
      
      if (b == 0)
     {
         return (0);
     }
-     for (k = 0; k < i + n; k++)
+     if (n < j)
+    {
+         j = n; 
+    }
+     for (k = 0; k < i + j; k++)
     {
         if (k < i)
     {
