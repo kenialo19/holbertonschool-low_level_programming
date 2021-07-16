@@ -13,17 +13,20 @@
      unsigned int j = 0;
      unsigned  int k;
      char *b;
-     
+     if (s1 != NULL)
+      {
      while (s1[i] != '\0')
      {
          i++;
      }
-     
+     }
+     if (s1 != NULL)
+     {
      while (s2[j] != '\0')
      {
          j++;
      }
-    
+     }
      b = malloc((i + j) * sizeof(char));
      
      if (b == 0)
