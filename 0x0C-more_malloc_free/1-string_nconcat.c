@@ -3,9 +3,12 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
+ * *string_nconcat - oncatenates two strings.
+ * @s1: string
+ * @s2: string
+ * @n: integer
  *
- * Return: Always 0.
+ * Return: a pointer.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
