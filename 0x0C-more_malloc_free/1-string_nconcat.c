@@ -14,42 +14,44 @@
      unsigned  int k;
      char *b;
      if (s1 != NULL)
-      {
+       {
      while (s1[i] != '\0')
      {
          i++;
      }
-     }
-     if (s1 != NULL)
-     {
+       }
+     if (s2 != NULL)
+       {
      while (s2[j] != '\0')
      {
          j++;
      }
-     }
-     b = malloc((i + j + 1) * sizeof(char));
+       }
+     if (n > j)
+    {
+         n = j; 
+    }
+     b = malloc((i + n + 1) * sizeof(char));
      
      if (b == 0)
     {
         return (0);
     }
-
-       if (n < j)
-    {
-         j = n; 
-    }
- 
-     for (k = 0; k < i + j; k++)
+     
+      for (k = 0; k < i + n; k++)
     {
         if (k < i)
     {
          b[k] = s1[k];
     }
-    else
+   else
     {
-        b[k] = s2[k - i];
+       b[k] = s2[k - i];
+
     }
     }
+    b[k] = '\0';
     return (b);
-    
+
  }
+ 
