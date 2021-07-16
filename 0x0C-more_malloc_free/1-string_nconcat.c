@@ -31,7 +31,7 @@
   {
     n = j; 
   }
-     b = malloc((i + j) * sizeof(char));
+     b = malloc((i + j + 1) * sizeof(char));
      
      if (b == 0)
     {
