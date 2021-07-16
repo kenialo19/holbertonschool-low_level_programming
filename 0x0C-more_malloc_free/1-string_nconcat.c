@@ -27,6 +27,10 @@
          j++;
      }
      }
+     if (n > j)
+    {
+         n = j; 
+    }
      b = malloc((i + n + 1) * sizeof(char));
      
      if (b == 0)
