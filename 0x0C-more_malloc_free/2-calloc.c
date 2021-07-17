@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * *string_nconcat - oncatenates two strings.
+ * _calloc - allocates memory for an array, using malloc.
  * @nmemb: string
  * @size: integer
  *
- * return: a pointer
+ * Return: a pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
