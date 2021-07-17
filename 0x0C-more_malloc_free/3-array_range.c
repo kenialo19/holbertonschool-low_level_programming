@@ -25,7 +25,7 @@ int *array_range(int min, int max)
 {
   return (NULL);
 }  
-  for (n = min; n <= max; n++)
+  for (n = min; n <= k; n++)
     {
       h[n] = n;
     }
