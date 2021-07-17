@@ -11,22 +11,20 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-  int *h;
-  unsigned int n;
-  if (nmemb == 0 || size == 0)
-  {
-    return (NULL);
-  }
-
-h = malloc(nmemb * sizeof(int));
-  if (h == NULL)
-  {
-    return (NULL);
-  }
-  
-for (n =  0; n < nmemb; n++)
+char *h;
+unsigned int n;
+if (nmemb == 0 || size == 0)
 {
-   h[n] = 0;
+return (NULL);
 }
- return (h);
+h = malloc(nmemb * size);
+if (h == NULL)
+{
+return (NULL);
+}
+for (n =  0; n < nmemb * size; n++)
+{
+h[n] = 0;
+}
+return (h);
 }
