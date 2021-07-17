@@ -9,25 +9,27 @@
  * Return: a pointer.
  */
 int *array_range(int min, int max)
-{ int *h;
+{ int *h = NULL;
   int n, k;
 
   if (min > max)
   {
     return (NULL);
   }
-  for (k = min; k <= max; k++)
-    {
-    }
+  k = max - min;
 
-  h = malloc(k * sizeof(int));
+  h = malloc((k + 1) * sizeof(int));
   if (h == NULL)
 {
   return (NULL);
-}  
-  for (n = min; n <= k; n++)
+}
+  for (n = 0; n <= k; n++)
     {
-      h[n] = n;
+      if (min <= max)
+      {
+      h[n] = min;
+      min++;
     }
+      }
   return (h);
 }
