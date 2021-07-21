@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-void print_name(char *name, void (*f)(char *s))
+void print_name(char *name, void (*f)(char *))
 {
 f(name);
 }
