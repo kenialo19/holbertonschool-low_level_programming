@@ -15,6 +15,7 @@ if (size <= 0)
 {
 return (-1);
 }
+if (array != NULL && cmp != NULL) 
 for (i = 0; i < size; i++)
 {
 a = cmp(array[i]);
