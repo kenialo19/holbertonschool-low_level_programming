@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int a, b, result;
 char *operator = NULL;
@@ -27,7 +27,7 @@ if (!f)
 printf("Error\n");
 exit(99);
 }
-result = f(a,b);
+result = f(a, b);
 printf("%d\n", result);
 return (0);
 }
