@@ -24,10 +24,12 @@ printf("%s", separator);
 }
 }
 else
+{
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(list, int));
 printf("%s", separator);
+}
 }
 va_end(list);
 printf("\n");
