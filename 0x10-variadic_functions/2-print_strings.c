@@ -21,6 +21,8 @@ if (separator != NULL)
 for (i = 0; i < n; i++)
 {
 ptr = va_arg(args, char *);
+if (ptr == NULL)
+printf("(nil)");
 printf("%s", ptr);
 if (i < (n - 1))
 printf("%s", separator);
@@ -30,10 +32,6 @@ else
 {
 ptr = va_arg(args, char *);
 printf("%s", ptr);
-}
-if (ptr == NULL)
-{
-printf("(nil)");
 }
 va_end(args);
 printf("\n");
