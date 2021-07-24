@@ -22,7 +22,7 @@ printf("%d", va_arg(list, int));
 if (i < (n - 1))
 printf("%s", separator);
 }
+printf("\n");
 }
 va_end(list);
-printf("\n");
 }
