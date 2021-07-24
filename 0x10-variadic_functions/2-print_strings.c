@@ -22,7 +22,9 @@ for (i = 0; i < n; i++)
 {
 ptr = va_arg(args, char *);
 if (ptr == NULL)
+{
 printf("(nil)");
+}
 printf("%s", ptr);
 if (i < (n - 1))
 printf("%s", separator);
