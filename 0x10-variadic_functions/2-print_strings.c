@@ -31,6 +31,10 @@ else
 ptr = va_arg(args, char *);
 printf("%s", ptr);
 }
+if (ptr == NULL)
+{
+printf("(nil)");
+}
 va_end(args);
 printf("\n");
 }
