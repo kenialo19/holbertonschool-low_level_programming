@@ -18,7 +18,7 @@ typedef struct lists
 	int cont;
 	struct lists *ptr;
 
-} lists_t;
+} list_t;
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
