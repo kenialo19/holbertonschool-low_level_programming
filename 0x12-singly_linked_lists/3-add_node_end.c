@@ -10,9 +10,9 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *ptr;
-	list_t *lts;
-	unsigned int i = 0; /**count the length of the string*/
+	list_t *ptr, *lts;
+	
+	int i = 0; 
 
 	ptr = malloc(sizeof(list_t));
 	lts = *head;
