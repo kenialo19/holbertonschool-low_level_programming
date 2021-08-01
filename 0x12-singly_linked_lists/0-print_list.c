@@ -1,15 +1,15 @@
 #include "lists.h"
 
 /**
- * print_list -prints all the elements of a list_t list. 
- * @h: list pointer 
- * 
- * Return: 
+ * print_list -prints all the elements of a list_t list.
+ * @h: list pointer.
+ *
+ * Return: size_t.
  */
 
 size_t print_list(const list_t *h)
 {
-	const list_t *b = NULL; 
+	const list_t *b = NULL;
 	char *k;
 	int j = 0;
 	int i = 0;
