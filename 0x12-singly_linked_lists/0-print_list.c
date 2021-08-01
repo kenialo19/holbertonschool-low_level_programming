@@ -22,7 +22,6 @@ size_t print_list(const list_t *h)
 		if (k == NULL)
 		{
 			k = "(nil)";
-			j = 0;
 		}
 		printf("[%i] %s\n", j, k);
 		i++;
