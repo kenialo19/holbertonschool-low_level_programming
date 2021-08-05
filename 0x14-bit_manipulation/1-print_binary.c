@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 
 /**
@@ -14,5 +15,5 @@ void print_binary(unsigned long int n)
 	{
 		print_binary(n / 2);
 	}
-		_putchar((n % 2) + '0');
+		putchar((n % 2) + '0');
 }
