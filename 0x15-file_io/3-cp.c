@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, r_file_f, w_file, close_ff, close_ft;
-	char *buf[1024];
+	char buf[1024];
 
 	if (argc != 3)
 	{
