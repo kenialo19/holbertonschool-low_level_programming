@@ -3,7 +3,7 @@
     <br>
 <h1 align="center">holbertonschool-low_level_programming</h1>
 <h3 align="center">Learning to program in Python</h3>
----
+
 ## Projects 📚
 
 #|Directory|Description
