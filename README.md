@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+    <br>
 <h1 align="center">holbertonschool-low_level_programming</h1>
 <h3 align="center">Learning to program in Python</h3>
 
