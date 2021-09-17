@@ -38,17 +38,17 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 		if (i == (idx))
 		{
-			/*lts = aux->prev;
+			lts = aux->prev;
 			aux->prev = ptr;
 			ptr->prev = lts;
 			ptr->next = aux;
 			lts->next = ptr;
-			return (ptr);*/
-			lts = aux->next;
+			return (ptr);
+			/*lts = aux->next;
 			ptr->next = lts;
 			lts->prev = ptr;
 			ptr->prev = aux;
-			aux->next = ptr;
+			aux->next = ptr;*/
 			return (ptr);
 		}
 		aux = aux->next;
