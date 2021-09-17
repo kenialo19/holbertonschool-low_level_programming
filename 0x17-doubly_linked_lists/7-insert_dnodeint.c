@@ -33,7 +33,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	while (aux != NULL)
 	{
-		if (i == (idx))
+		if (i == idx)
 		{
 			lts = aux->prev;
 			aux->prev = ptr;
