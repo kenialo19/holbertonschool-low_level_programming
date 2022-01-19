@@ -1,5 +1,5 @@
 # 0x1E. C - Search Algorithms
-
+ 
 <h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
